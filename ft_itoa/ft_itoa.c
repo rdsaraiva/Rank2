@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdio.h>
 
 static int len(int n)
 {
@@ -45,14 +44,4 @@ char	*ft_itoa(int nbr)
         n /= 10;
     }
     return (s);
-}
-
-int main(void)
-{
-    char *s;
-
-    s = ft_itoa(16);
-    printf("%s\n", s);
-    free(s);
-    return (0);
 }
