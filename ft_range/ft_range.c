@@ -25,18 +25,3 @@ int     *ft_range(int start, int end)
     }
     return (arr);
 }
-
-int main(void)
-{
-    int i = 0;
-    int *arr = ft_range(0, 0);
-    int size = 1;
-
-    while (i < size)
-    {
-        printf("%d\n", arr[i]);
-        i++;
-    }
-    free(arr);
-    return (0);
-}
